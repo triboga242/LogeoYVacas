@@ -281,7 +281,7 @@ public class CreaPersona {
 				cont += validarString(apellido_.getText());
 				vacaciones = leerBool();
 				cont += validarString(leerSexo());
-				error = "hay " + cont + " errores";
+				error = "hay " + (3-cont) + " errores";
 
 				if (cont == 3) {
 
